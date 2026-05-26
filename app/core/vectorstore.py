@@ -1,7 +1,7 @@
-from langchain_community.vectorstores import Chroma
+from langchain_chroma import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from app.core.embeddings import get_embeddings
-import  os
+import os
 
 CHROMA_DIR = "chroma_db"
 
